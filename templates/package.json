@@ -1,0 +1,27 @@
+{
+  "name": "bender-#NAME#",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/benderteam/bender-#NAME#.git"
+  },
+  "author": "jeremy guido",
+  "license": "GPL-3.0",
+  "homepage": "https://bitbucket.org/benderteam/bender-#NAME##readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "body-parser": "^1.18.2",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
