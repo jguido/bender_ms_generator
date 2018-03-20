@@ -1,0 +1,23 @@
+{
+  "name": "neurone-generator",
+  "version": "0.0.0",
+  "description": "generator for easily create a micro service for the bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "nbender": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:jguido/bender_ms_generator.git"
+  },
+  "author": "jeremy guido",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/jguido/bender_ms_generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^3.3.0"
+  }
+}
